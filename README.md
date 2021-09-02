@@ -8,7 +8,7 @@ Using data analysis to determine what makes a successful film.
 * Jupyter Notebook
 
 ## data sources
-Movie studio dataset, provided by 
+Movie studio dataset
 
 ### Numeric Variables
 Field | Description
