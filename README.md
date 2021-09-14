@@ -1,7 +1,11 @@
 # Movie Studio Analysis
 
 ## project goals
-Use data to determine what makes a successful film.
+Use data analysis to help a film studio determine what leads to a successful movie. This project was developed by Numa Dhamani as part of my mentorship.
+
+Determinants of success:
+* Return on Investment (ROI)
+* Revenue
 
 ## built with
 * Python 3
