@@ -57,7 +57,7 @@ Inputs (metrics that the movie studio can influence)
 *	country 
 *	content_rating 
 
-I transformed the budget and gross variables to be shown in millions so they will be easier to interpret. I also added additional variables – profit, roi, and profit margin - to evaluate the financial results of each movie.
+I transformed the ```budget``` and ```gross``` variables to be shown in millions so they will be easier to interpret. I also added additional variables – profit, roi, and profit margin - to evaluate the financial results of each movie.
 
 Next, I filtered the dataset to show only the movies that are most relevant to the analysis. The filtered dataset contains only English language movies, and movies released after 1996 (to show 20 years’ worth of data). 
 
