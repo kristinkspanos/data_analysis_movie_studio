@@ -3,8 +3,8 @@
 After a few tough years financially and a series of unsuccessful films, a movie studio is looking to update their strategy. I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film.
 This project was developed by Numa Dhamani as part of my mentorship. The dataset and prompt were provided by Numa.
 
-## Investigate the data through exploratory Data Analysis 
-Before diving into the analysis, I performed exploratory data analysis to familiarize myself with the variables included in the dataset. 
+## Investigate the data through exploratory data analysis 
+Before diving into the analysis, I performed exploratory data analysis (EDA) to familiarize myself with the variables included in the dataset. 
 
 The variables can be divided into five categories: 
 •	Identifiers
@@ -84,7 +84,7 @@ I chose not to include profit margin (profit_margin) because this analysis asks 
 
 It's also important to note that we do not have data on the dollar amount paid to each actor or director for appearing in/directing a movie. The profit and ROI figures analyzed capture the profit and ROI of the movie itself. Therefore, we cannot make a judgement on whether a particular actor or director has a strong ROI for his or her salary, but instead whether they appeared in movies that achieved a strong ROI on the movie’s overall budget.
 
-## Actor Analysis 
+## Actor analysis 
 Do certain actors tend to appear in more successful movies? 
 
 The movie_studio dataset has three fields that contain actor names - ‘actor_1_name’, ‘actor_2_name’, ‘actor_3_name’. 
@@ -116,7 +116,7 @@ This analysis revealed that many of the lead actors in the highest profit and RO
 **Recommendation**
 While the studio should aim to work with the actors identified in the previous analysis to seek out consistent profit, up-and-coming actor can produce successful movies, and should not be ignored. The studio should consider gathering additional data on actors who have appeared in fewer than 4 movies to see if any trends can be identified. The studio may also consider developing programs to identify promising young actors, such as relationships with theatre programs at universities.
 
-## Director Analysis 
+## Director analysis 
 Do certain directors direct in more successful movies? 
 
 The list of directors is filtered to only show actors who have directed (‘director_name’) at least 5 movies. Again, I analyzed normalized profit and normalized ROI per director.
@@ -138,20 +138,16 @@ I also looked at the summary outcomes for all directors for these metrics. Sever
 While the studio should aim to work with directors with a track record of financial success to seek out consistent profit, the most profitable directors, and those whose movies have the highest ROIs, can often be up-and-coming directors. The studio should not ignore new talent and should look for opportunities to engage with aspiring directors.
 Further analysis is needed to determine determinants of success for up-and-coming directors. 
 
-## Genre Analysis 
+## Genre analysis 
 How do financial outcomes differ by genre? Which genres are most successful? 
  
 Movies can be classified under more than one genre. For this analysis, a movie’s outcomes are included in the aggregate outcome for each genre it is classified as. For example - a movie whose genres are "romance" and "comedy" will be included in the analyses for both genres. 
  
 *<insert charts>*
 
-Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing, on average. The Adventure, Family, Fantasy, and Sci-fi genres each represent 4.3% - 6.3% of all movies.
-
-Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
+Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing, on average. The Adventure, Family, Fantasy, and Sci-fi genres each represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
  
-Animation and Family have the highest average profits.
- 
-Action, Crime, Drama, and Thriller tend have below-average profits. Action, thriller, and crime movies are relatively common - representing 8.1% 10.7%, and 6.5% of all movies, respectively. Drama is the most common genre; 18.6% of all movies are Dramas.
+Animation and Family have the highest average profits. Action, Crime, Drama, and Thriller tend have below-average profits. Action, thriller, and crime movies are relatively common - representing 8.1% 10.7%, and 6.5% of all movies, respectively. Drama is the most common genre; 18.6% of all movies are Dramas.
  
 Comedies have the highest total profit; comedies are common (15% of all movies) and have above-average profitability.
  
@@ -168,7 +164,7 @@ Focus on growth in two categories:
 
 De-emphasize less profitable genres - including Action, Crime, Thriller, and Drama.
 
-## Keyword Analysis 
+## Keyword analysis 
 Do movies with certain plot keywords have more successful outcomes? 
  
 More than one plot keyword may be associated with a movie. For this analysis, a movie’s outcomes are included in the aggregate outcome for each plot keyword associated with that movie. For example - a movie whose plot keywords are "doctor" and "scientist" will be included in the analyses for both keywords. 
