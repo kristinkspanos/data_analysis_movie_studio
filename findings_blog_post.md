@@ -93,56 +93,53 @@ The list of lead actors is filtered to only show actors who have been lead actor
 
 The first metric analyzed is profit. I normalized the profit metric by dividing each actor’s average profit by the overall average profit. This shows the profit metric’s percent difference from the mean value. 
 
-There are 48 lead actors and 205 supporting actors with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least 100% above the overall average (a value of one is an average value). 
-
-*Further analysis – why did I pick 2? Boxplots to show distribution of results?*
+There are 48 lead actors and 205 supporting actors with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least twice the overall average (a value of one is an average value).
 
 Next, I analyzed each actor’s ROI. Again, I normalized ROI by dividing each actor’s average ROI by the overall average ROI, creating a metric that shows each profit metric’s percent difference from the mean value. 
 
 There are 31 lead actors and 105 supporting actors with an average normalized ROI, as a pct. of overall average greater than 1.5 - indicating that the movies these actors appear in have an average ROI that is at least 50%.
 
-*Further analysis – why did I pick 2? Boxplots to show distribution of results?*
+*Further analysis – why did I pick 1.5?*
 
 **Recommendation**
 The lead and supporting actors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of appearing in movies with strong financial results, and should be hired on future movies.
 
 *Further analysis - what is the overlap between these two lists?*
 
-Finally, I looked at summary outcomes by actor, in order to explore if filtering the results of the normalized profit and ROI analysis by actors who have appeared in at least 4 movies left out any highly profitable actors. This analysis revealed that many of the lead actors in the highest profit and ROI movies have indeed appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
+Finally, I looked at summary outcomes by actor, in order to explore if filtering the results of the normalized profit and ROI analysis by actors who have appeared in at least 4 movies left out any highly profitable actors. This analysis revealed that 86% of the lead actors with the highest average profit and 95% of the actors with the highest average ROI have indeed appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
 
 **Recommendation**
-While the studio should aim to work with the actors identified in the previous analysis to seek out consistent profit, up-and-coming actor can produce successful movies, and should not be ignored. The studio should consider gathering additional data on actors who have appeared in fewer than 4 movies to see if any trends can be identified. The studio may also consider developing programs to identify promising young actors, such as relationships with theatre programs at universities.
+The studio should aim to work with the actors identified in the previous analysis to seek out consistent results, it's also important to identify and foster relationships with up-and-coming actors. 
 
-*Further analysis - what pct of the 100 most successful movies have lead actors who appeared in less than four movies?*
+The studio should consider gathering additional data on actors who have appeared in fewer than 4 movies to see if any trends can be identified. The studio may also consider developing programs to identify promising young actors.
 
 ## Director analysis 
 Do certain directors direct in more successful movies? 
 
-The list of directors is filtered to only show actors who have directed (‘director_name’) at least 5 movies. Again, I analyzed normalized profit and normalized ROI per director.
+The list of directors is filtered to only show actors who have directed (‘director_name’) at least 4 movies. Again, I analyzed normalized profit and normalized ROI per director.
  
-There are 59 directors with an average normalized profit greater than two - indicating that these movies have an average profit that is at least 100% above the overall average. There are only four directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.  
+There are 77 directors with an average normalized profit greater than two - indicating that these movies have an average profit that is at least twice the overall average. There are only four directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.  
 
 *Further analysis – pick a lower ROI threshold for directors?*
  
 **Recommendation**
-The directors  with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of directing in movies with strong financial results, and should be hired on future movies. 
+The directors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of directing in movies with strong financial results, and should be hired on future movies. 
 
 *Further analysis - what is the overlap between these two lists?*
 
-I also looked at the summary outcomes for all directors for these metrics. Several of the top directors by Profit and ROI have only directed one or two movies and therefore will not be included in the previous analysis. 
+I also looked at the summary outcomes for all directors for these metrics. This analysis revealed that 75% of the directors with the highest average profit and 21% of the directors with the highest average ROI have appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
 
 **Recommendation**
-While the studio should aim to work with directors with a track record of financial success to seek out consistent profit, the most profitable directors, and those whose movies have the highest ROIs, can often be up-and-coming directors. The studio should not ignore new talent and should look for opportunities to engage with aspiring directors.
-Further analysis is needed to determine determinants of success for up-and-coming directors. 
+While the studio should aim to work with directors with a track record of financial success to seek out consistent profit, the most profitable directors, and those whose movies have the highest ROIs, can often be up-and-coming directors. The studio should look for opportunities to engage with aspiring directors.
 
-*Further analysis - what pct of the 100 most successful movies have directors who directed in less than five movies?*
+Further analysis is needed to determine determinants of success for up-and-coming directors. 
 
 ## Genre analysis 
 How do financial outcomes differ by genre? Which genres are most successful? 
  
 Movies can be classified under more than one genre. For this analysis, a movie’s outcomes are included in the aggregate outcome for each genre it is classified as. For example - a movie whose genres are "romance" and "comedy" will be included in the analyses for both genres. 
  
-*<insert charts>*
+![Total profit by genre](file:///Users/kristinkent/Dropbox/Kristin/Codecademy/Projects/Mentor%20Assignments/mentor_assignment_2/genre_sum_profit.png)
 
 Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing, on average. The Adventure, Family, Fantasy, and Sci-fi genres each represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
  
