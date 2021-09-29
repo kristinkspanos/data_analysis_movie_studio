@@ -21,19 +21,22 @@ The variables can be divided into five categories:
 Inputs (metrics that the movie studio can influence) 
 *	duration 
 *	aspect_ratio 
-*	budget 
+*	budget
+
 Non-financial metrics that represent the popularity of the actors and directors in a movie 
 *	director_facebook_likes 
 *	actor_1_facebook_likes 
 *	actor_2_facebook_likes 
 *	actor_3_facebook_likes 
 *	cast_total_facebook_likes 
-*	movie_facebook_likes 
+*	movie_facebook_likes
+
 Non-financial metrics of a movie’s success 
 *	num_critic_reviews 
 *	num_user_reviews 
 *	num_users_voted 
 *	movie_score 
+
 Financial metrics of a movie’s success 
 *	gross 
 *	budget_millions 
