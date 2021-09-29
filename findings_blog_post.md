@@ -148,7 +148,7 @@ Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing
 The Adventure, Family, Fantasy, and Sci-fi genres each represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
 
 **Average Profit by Genre**
-![bar chart](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_avg_profit.png)
+![bar_chart](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_avg_profit.png)
 
 **Total Profit by Genre**
 
