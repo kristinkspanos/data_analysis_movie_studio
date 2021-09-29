@@ -153,6 +153,7 @@ The Adventure, Family, Fantasy, and Sci-fi genres each represent 4.3% - 6.3% of 
 ![avg_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_avg_profit.png)
 
 **Total Profit by Genre**
+![total_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_profit.png)
 
 Animation and Family have the highest average profits. Action, Crime, Drama, and Thriller tend have below-average profits. Action, thriller, and crime movies are relatively common - representing 8.1% 10.7%, and 6.5% of all movies, respectively. Drama is the most common genre; 18.6% of all movies are Dramas.
  
