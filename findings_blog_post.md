@@ -57,37 +57,35 @@ Inputs (metrics that the movie studio can influence)
 *	country 
 *	content_rating 
 
-I transformed the ```budget``` and ```gross``` variables to be shown in millions so they will be easier to interpret. I also added additional variables – profit, roi, and profit margin - to evaluate the financial results of each movie.
+I transformed the ```budget``` and ```gross``` to be shown in millions so they will be easier to interpret. I also added additional variables – ```profit_millions```, ```roi```, and ```profit_margin``` - to evaluate the financial results of each movie.
 
 Next, I filtered the dataset to show only the movies that are most relevant to the analysis. The filtered dataset contains only English language movies, and movies released after 1996 (to show 20 years’ worth of data). 
 
-Next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I trimmed the outliers, and then looked at boxplots for each variable, as well as a heatmap that shows relationships between the variables.
-
-I also used .value_counts() to look at the distribution of each categorical variable. 
+Next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I trimmed the outliers, and then looked at boxplots for each variable, as well as a heatmap that shows relationships between the variables. I also used .value_counts() to look at the distribution of each categorical variable. 
 
 ## Analysis
 After exploring the data through EDA, I decided to focus on 4 inputs, and two determinants of success:
 *	Inputs
-    *	actors (actor_1_name, actor_2_name, actor_3_name) 
-    *	directors (director_name)
-    *	genres (genres)
-    *	plot keywords (plot_keywords)
+    *	actors (```actor_1_name```, ```actor_2_name```, ```actor_3_name```) 
+    *	directors (```director_name```)
+    *	genres (```genres```)
+    *	plot keywords (```plot_keywords```)
 *	Determinants of success
-    *	profit (profit_millions)
-    *	roi (roi)
+    *	profit (```profit_millions```)
+    *	roi (```roi```)
 
-I chose to ignore the non-monetary metrics that represent the popularity of a movie's actors and director (the Facebook likes the actors and director) because they have weak or non-existent correlations with the monetary metrics of a movie’s success. Moreover, Facebook didn’t exist for the entire period of time we are analyzing, and the populations that use Facebook and its various features has changed dramatically over the past 15 years.
+I chose to ignore the non-monetary metrics that represent the popularity of a movie's actors and director (the Facebook likes of the actors and director) because they have weak or non-existent correlations with the monetary metrics of a movie’s success. Moreover, Facebook didn’t exist for the entire period of time we are analyzing, and the populations that use Facebook and its various features has changed dramatically over the past 15 years.
 
 I assume that the financial metrics of a movie’s success are most relevant to the movie studio’s decision-making processes, and therefore will not consider the non-monetary metrics of a movie’s success in the analysis.
 
-I chose not to include profit margin (profit_margin) because this analysis asks me to identify which elements lead to successful movies - not cost-cutting or pricing strategies which might be better captured by profit margin. Moreover, profit margin is highly correlated with ROI, so movies with strong profit margins will likely be captured in ROI analysis.
+I chose not to include profit margin because this analysis asks me to identify which elements lead to successful movies - not cost-cutting or pricing strategies which might be better captured by profit margin. Moreover, profit margin is highly correlated with ROI, so movies with strong profit margins will likely be captured in ROI analysis.
 
 It's also important to note that we do not have data on the dollar amount paid to each actor or director for appearing in/directing a movie. The profit and ROI figures analyzed capture the profit and ROI of the movie itself. Therefore, we cannot make a judgement on whether a particular actor or director has a strong ROI for his or her salary, but instead whether they appeared in movies that achieved a strong ROI on the movie’s overall budget.
 
 ## Actor analysis 
 Do certain actors tend to appear in more successful movies? 
 
-The movie_studio dataset has three fields that contain actor names - ‘actor_1_name’, ‘actor_2_name’, ‘actor_3_name’. 
+The movie_studio dataset has three fields that contain actor names - ```actor_1_name```, ```actor_2_name```, ```actor_3_name```. 
 
 I analyze the outcomes for the lead actor in a movie (actor_1_name) separately from the outcomes for the supporting actors (actor_2_name, actor_3_name). This method is imperfect, because some movies have more than one headliner, and some have ensemble casts - these realities are not reflected in the data we have available. Therefore, the resulting lists of lead actors with strong financial outcomes may leave out some actors who were not coded as actor_1_name in the movies they starred in. However, this analysis will provide a strong starting point for identifying which actors appear in movies with the strongest financial outcomes.
 
