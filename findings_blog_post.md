@@ -97,13 +97,13 @@ The first metric analyzed is profit. I normalized the profit metric by dividing 
 
 There are 48 lead actors (‘actor_1_name’) and 205 supporting actors (‘actor_2_name’ or ‘actor_3_name’) with an average normalized profit greater than 2 - indicating that the movies these actors appear in have an average profit that is at least 100% above the overall average (a value of 1 is an average value). 
 
-*Further analysis – why did I pick 2? Boxplots to show distribution of results?
+*Further analysis – why did I pick 2? Boxplots to show distribution of results?*
 
 Next, I analyzed each actor’s ROI. Again, I normalized ROI by dividing each actor’s average ROI by the overall average ROI, creating a metric that shows each profit metric’s percent difference from the mean value. 
 
 There are 31 lead actors (‘actor_1_name’) and 105 supporting actors (‘actor_2_name’ or ‘actor_3_name’) with an average normalized ROI, as a pct. of overall average greater than 1.5 - indicating that the movies these actors appear in have an average ROI that is at least 50%.
 
-*Further analysis – why did I pick 2? Boxplots to show distribution of results?
+*Further analysis – why did I pick 2? Boxplots to show distribution of results?*
 
 **Recommendation**
 The lead and supporting actors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of appearing in movies with strong financial results, and should be hired on future movies. 
