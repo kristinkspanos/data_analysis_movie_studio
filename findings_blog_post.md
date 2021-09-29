@@ -139,7 +139,8 @@ How do financial outcomes differ by genre? Which genres are most successful?
  
 Movies can be classified under more than one genre. For this analysis, a movie’s outcomes are included in the aggregate outcome for each genre it is classified as. For example - a movie whose genres are "romance" and "comedy" will be included in the analyses for both genres.
 
-![bar_chart](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_profit.png)
+**Average Gross by Genre**
+![bar_chart](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_avg_gross.png)
 
 Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing, on average. The Adventure, Family, Fantasy, and Sci-fi genres each represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
  
