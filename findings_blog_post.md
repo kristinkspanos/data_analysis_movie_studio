@@ -147,17 +147,17 @@ Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing
 **Total Gross by Genre**
 ![total_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_gross.png)
 
-The Adventure, Family, Fantasy, and Sci-fi genres each represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
+The Adventure, Family, Fantasy, and Sci-fi genres have high total gross, in addition to their high average gross. This indicates high volumn - each of these genres represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
 
 **Average Profit by Genre**
 ![avg_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_avg_profit.png)
 
+Animation and Family have the highest average profits. Adventure, Comedy, Fantasy, Horror, Music, and Sci-fi movies also have above-average average profits. Action, Crime, Documentary, Drama, and Thriller movies tend have below-average profits.
+
 **Total Profit by Genre**
 ![total_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_profit.png)
-
-Animation and Family have the highest average profits. Action, Crime, Drama, and Thriller tend have below-average profits. Action, thriller, and crime movies are relatively common - representing 8.1% 10.7%, and 6.5% of all movies, respectively. Drama is the most common genre; 18.6% of all movies are Dramas.
  
-Comedies have the highest total profit; comedies are common (15% of all movies) and have above-average profitability.
+Comedies have the highest total profits. The Comedy genre is high volumne (15% of all movies) and Comedies have have above-average profitability.
  
 **Recommendation**
 Focus on growth in two categories:
