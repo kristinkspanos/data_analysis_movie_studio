@@ -177,23 +177,23 @@ The list of movies is filtered to only show keywords (‘plot_keywords’) assoc
 
 There are only 6 keywords with average normalized profit greater than 2, and none with average normalized ROI greater than 1.5. This indicates that there is likely large variation in the outcomes for any given keyword. Because the normalized profit and ROI analysis did not produce many keywords of interest, we will instead look at the highest grossing and most profitable keywords.
 Highest grossing and most profitable keywords:
-•	Movies with the plot keywords 'sequel', 'battle', 'spy', 'alien', and 'island' are the highest grossing, on average.
-•	Movies with the plot keywords 'wedding', 'island', 'high school', 'female nudity', and 'hospital' are the most profitable, on average.
-•	Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'future', and 'box office flop' are not profitable, on average.
+*	Movies with the plot keywords 'sequel', 'battle', 'spy', 'alien', and 'island' are the highest grossing, on average.
+*	Movies with the plot keywords 'wedding', 'island', 'high school', 'female nudity', and 'hospital' are the most profitable, on average.
+*	Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'future', and 'box office flop' are not profitable, on average.
 
-Recommendation
+**Recommendation**
 The plot keywords with the highest average gross and profit are likely to be associated with financially successful films. Future films should consider these plot themes.
 
 ## Conclusion
 The analysis identified groups of lead actors, supporting actors, and directors whose movies are financially successful, on average. I also recommended that the studio focus on two genre groupings - blockbusters (high margin, low volume films), and crowd-pleasers (low margin, high-volume films – and deemphasize less profitable genres. Finally, I identified keywords that have high average profit and ROI – as well as keywords with weak results. These keywords provide direction for which plot themes the studio should embrace and avoid in the future.
 
- ##Ideas for Additional Analysis
+ ## Ideas for Additional Analysis
  
 This is not an exhaustive analysis of all the elements that could contribute to the financial success of a movie. Additional analysis could be performed on the data in the dataset provided:
-•	How successful are sequels and series'?
-•	Closer look at popular groupings of genres (i.e. romance and comedy; action and adventure).
-•	Closer look at popular groupings of keywords.
-•	Group similar keywords together. (i.e. ‘marriage’, ‘marriage ceremony’, and ‘marriage proposal’ are all separate keywords – but it may be useful to analyze their results together. 
+*	How successful are sequels and series'?
+*	Closer look at popular groupings of genres (i.e. romance and comedy; action and adventure).
+*	Closer look at popular groupings of keywords.
+*	Group similar keywords together. (i.e. ‘marriage’, ‘marriage ceremony’, and ‘marriage proposal’ are all separate keywords – but it may be useful to analyze their results together. 
 •	Analysis of outcomes by content rating.
 While this analysis focuses on increasing revenue for the movie studio, the studio could also explore strategies for cutting costs using more detailed budget data. Moreover, the studio could explore distribution strategies using data on revenue sources (movie theatres, streaming services, television replays, etc.).
 
