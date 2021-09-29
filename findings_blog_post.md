@@ -145,7 +145,7 @@ Movies can be classified under more than one genre. For this analysis, a movieâ€
 Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing, on average.
 
 **Total Gross by Genre**
-![total_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_gross.png)
+![total__gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_gross.png)
 
 The Adventure, Family, Fantasy, and Sci-fi genres each represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
 
