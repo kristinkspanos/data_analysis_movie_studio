@@ -3,16 +3,12 @@
 ## project goals
 Use data analysis to help a film studio determine what leads to a successful movie. This project was developed by Numa Dhamani as part of my mentorship.
 
-Determinants of success:
-* Return on Investment (ROI)
-* Revenue
-
 ## built with
 * Python 3
 * Jupyter Notebook
 
 ## data sources
-Movie studio dataset
+Movie studio dataset, provided by Numa Dhamani
 
 ### Numeric Variables
 Field | Description
@@ -27,10 +23,10 @@ movie_facebook_likes| number of facebook likes, movie
 cast_total_facebook_likes (int)| number of facebook likes, cast (int)
 gross| gross income
 budget| budget
-movie_score|
-num_users_voted | 
-num_user_reviews|
-aspect_ratio |(int)
+movie_score| movie rating (possible values are between 1 and 10)
+num_users_voted | unknown; we assume ths refers to the number of users who voted on a movie's rating
+num_user_reviews| unknown; we assume this refers to the number of users who left a review for the movie
+aspect_ratio | aspect ratio (int)
 
 ### Categorical Variables
 Field | Description
@@ -48,3 +44,4 @@ country| country
 content_rating| content rating (PG, PG13, etc.)
 
 ## acknowledgements
+The project prompt and dataset were provided by Numa Dhamani as part of my mentorship.
