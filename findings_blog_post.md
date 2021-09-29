@@ -7,11 +7,11 @@ This project was developed by Numa Dhamani as part of my mentorship. The dataset
 Before diving into the analysis, I performed exploratory data analysis (EDA) to familiarize myself with the variables included in the dataset. 
 
 The variables can be divided into five categories: 
-•	Identifiers
-•	Inputs (metrics that the movie studio can influence) 
-•	Non-financial metrics that represent the popularity of the actors and directors in a movie 
-•	Non-financial metrics of a movie’s success 
-•	Financial metrics of a movie’s success 
+*	Identifiers
+*	Inputs (metrics that the movie studio can influence) 
+*	Non-financial metrics that represent the popularity of the actors and directors in a movie 
+*	Non-financial metrics of a movie’s success 
+*	Financial metrics of a movie’s success 
 
 ### Identifiers: 
 *	movie_title 
