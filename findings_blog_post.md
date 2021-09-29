@@ -85,43 +85,42 @@ It's also important to note that we do not have data on the dollar amount paid t
 ## Actor analysis 
 Do certain actors tend to appear in more successful movies? 
 
-The movie_studio dataset has three fields that contain actor names - ```actor_1_name```, ```actor_2_name```, ```actor_3_name```. 
+The movie_studio dataset has three fields that contain actor names" ```actor_1_name```, ```actor_2_name```, ```actor_3_name```. 
 
-I analyze the outcomes for the lead actor in a movie (actor_1_name) separately from the outcomes for the supporting actors (actor_2_name, actor_3_name). This method is imperfect, because some movies have more than one headliner, and some have ensemble casts - these realities are not reflected in the data we have available. Therefore, the resulting lists of lead actors with strong financial outcomes may leave out some actors who were not coded as actor_1_name in the movies they starred in. However, this analysis will provide a strong starting point for identifying which actors appear in movies with the strongest financial outcomes.
+I analyze the outcomes for the lead actor in a movie (```actor_1_name```) separately from the outcomes for the supporting actors (```actor_2_name```, ```actor_3_name```). This method is imperfect, because some movies have more than one headliner, and some have ensemble casts - these realities are not reflected in the data we have available. Therefore, the resulting lists of lead actors with strong financial outcomes may leave out some actors who were not coded as actor_1_name in the movies they starred in. However, this analysis will provide a strong starting point for identifying which actors appear in movies with the strongest financial outcomes.
 
-The list of lead actors is filtered to only show actors who have been lead actor (‘actor_1_name’) in at least 4 movies. The list of supporting actors is filtered to only show actors who have been a supporting actor (‘actor_2_name’ or ‘actor_3_name’) in at least 4 movies. 
+The list of lead actors is filtered to only show actors who have been lead actor in at least 4 movies. The list of supporting actors is filtered to only show actors who have been a supporting actor in at least 4 movies. 
 
 The first metric analyzed is profit. I normalized the profit metric by dividing each actor’s average profit by the overall average profit. This shows the profit metric’s percent difference from the mean value. 
 
-There are 48 lead actors (‘actor_1_name’) and 205 supporting actors (‘actor_2_name’ or ‘actor_3_name’) with an average normalized profit greater than 2 - indicating that the movies these actors appear in have an average profit that is at least 100% above the overall average (a value of 1 is an average value). 
+There are 48 lead actors and 205 supporting actors with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least 100% above the overall average (a value of one is an average value). 
 
 *Further analysis – why did I pick 2? Boxplots to show distribution of results?*
 
 Next, I analyzed each actor’s ROI. Again, I normalized ROI by dividing each actor’s average ROI by the overall average ROI, creating a metric that shows each profit metric’s percent difference from the mean value. 
 
-There are 31 lead actors (‘actor_1_name’) and 105 supporting actors (‘actor_2_name’ or ‘actor_3_name’) with an average normalized ROI, as a pct. of overall average greater than 1.5 - indicating that the movies these actors appear in have an average ROI that is at least 50%.
+There are 31 lead actors and 105 supporting actors with an average normalized ROI, as a pct. of overall average greater than 1.5 - indicating that the movies these actors appear in have an average ROI that is at least 50%.
 
 *Further analysis – why did I pick 2? Boxplots to show distribution of results?*
 
 **Recommendation**
-The lead and supporting actors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of appearing in movies with strong financial results, and should be hired on future movies. 
-Further analysis - what is the overlap between these two lists? 
+The lead and supporting actors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of appearing in movies with strong financial results, and should be hired on future movies.
 
-Finally, I looked at summary outcomes by actor, in order to see if filtering the results of the normalized profit and ROI analysis by actors who have appeared in at least 4 movies left out any highly profitable actors.
+*Further analysis - what is the overlap between these two lists?*
 
-This analysis revealed that many of the lead actors in the highest profit and ROI movies have indeed appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
+Finally, I looked at summary outcomes by actor, in order to explore if filtering the results of the normalized profit and ROI analysis by actors who have appeared in at least 4 movies left out any highly profitable actors. This analysis revealed that many of the lead actors in the highest profit and ROI movies have indeed appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
 
 **Recommendation**
 While the studio should aim to work with the actors identified in the previous analysis to seek out consistent profit, up-and-coming actor can produce successful movies, and should not be ignored. The studio should consider gathering additional data on actors who have appeared in fewer than 4 movies to see if any trends can be identified. The studio may also consider developing programs to identify promising young actors, such as relationships with theatre programs at universities.
+
+*Further analysis - what pct of the 100 most successful movies have lead actors who appeared in less than four movies?*
 
 ## Director analysis 
 Do certain directors direct in more successful movies? 
 
 The list of directors is filtered to only show actors who have directed (‘director_name’) at least 5 movies. Again, I analyzed normalized profit and normalized ROI per director.
  
-There are 59 directors with an average normalized profit greater than 2 - indicating that these movies have an average profit that is at least 100% above the overall average. 
- 
-There are only 4 directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.  
+There are 59 directors with an average normalized profit greater than two - indicating that these movies have an average profit that is at least 100% above the overall average. There are only four directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.  
 
 *Further analysis – pick a lower ROI threshold for directors?*
  
@@ -135,6 +134,8 @@ I also looked at the summary outcomes for all directors for these metrics. Sever
 **Recommendation**
 While the studio should aim to work with directors with a track record of financial success to seek out consistent profit, the most profitable directors, and those whose movies have the highest ROIs, can often be up-and-coming directors. The studio should not ignore new talent and should look for opportunities to engage with aspiring directors.
 Further analysis is needed to determine determinants of success for up-and-coming directors. 
+
+*Further analysis - what pct of the 100 most successful movies have directors who directed in less than five movies?*
 
 ## Genre analysis 
 How do financial outcomes differ by genre? Which genres are most successful? 
@@ -188,6 +189,7 @@ This is not an exhaustive analysis of all the elements that could contribute to 
 *	Closer look at popular groupings of genres (i.e. romance and comedy; action and adventure).
 *	Closer look at popular groupings of keywords.
 *	Group similar keywords together. (i.e. ‘marriage’, ‘marriage ceremony’, and ‘marriage proposal’ are all separate keywords – but it may be useful to analyze their results together. 
-•	Analysis of outcomes by content rating.
-While this analysis focuses on increasing revenue for the movie studio, the studio could also explore strategies for cutting costs using more detailed budget data. Moreover, the studio could explore distribution strategies using data on revenue sources (movie theatres, streaming services, television replays, etc.).
+* Analysis of outcomes by content rating.
+
+ While this analysis focuses on increasing revenue for the movie studio, the studio could also explore strategies for cutting costs using more detailed budget data. Moreover, the studio could explore distribution strategies using data on revenue sources (movie theatres, streaming services, television replays, etc.).
 
