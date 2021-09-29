@@ -23,7 +23,7 @@ Inputs (metrics that the movie studio can influence)
 *	aspect_ratio 
 *	budget
 
-Non-financial metrics that represent the popularity of the actors and directors in a movie 
+Non-financial metrics (represent the popularity of the actors and directors in a movie)
 *	director_facebook_likes 
 *	actor_1_facebook_likes 
 *	actor_2_facebook_likes 
