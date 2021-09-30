@@ -22,6 +22,7 @@ Inputs (metrics that the movie studio can influence)
 *	duration 
 *	aspect_ratio 
 *	budget
+*	budget_millions (calculated field)
 
 Non-financial metrics (represent the popularity of the actors and directors in a movie)
 *	director_facebook_likes 
@@ -39,11 +40,10 @@ Non-financial metrics of a movie’s success
 
 Financial metrics of a movie’s success 
 *	gross 
-*	budget_millions 
-*	gross_millions 
-*	profit_millions 
-*	roi 
-*	profit_margin 
+*	gross_millions (calculated field)
+*	profit_millions (calculated field)
+*	roi (calculated field)
+*	profit_margin (calculated field)
 
 ### Categorical variables 
 Inputs (metrics that the movie studio can influence) 
