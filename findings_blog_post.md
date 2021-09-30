@@ -99,8 +99,6 @@ Next, I analyzed each actor’s ROI. Again, I normalized ROI by dividing each ac
 
 There are 31 lead actors and 105 supporting actors with an average normalized ROI, as a pct. of overall average greater than 1.5 - indicating that the movies these actors appear in have an average ROI that is at least 50%.
 
-*Further analysis – why did I pick 1.5?*
-
 **Recommendation**
 The lead and supporting actors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of appearing in movies with strong financial results, and should be hired on future movies.
 
