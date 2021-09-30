@@ -61,7 +61,7 @@ I transformed the ```budget``` and ```gross``` to be shown in millions so they w
 
 Next, I filtered the dataset to show only the movies that are most relevant to the analysis. The filtered dataset contains only English language movies, and movies released after 1996 (to show 20 years’ worth of data). 
 
-Next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I trimmed the outliers, and then looked at boxplots for each variable, as well as a heatmap that shows relationships between the variables. I also used .value_counts() to look at the distribution of each categorical variable. 
+Next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I trimmed the outliers, and then looked at boxplots for each variable, as well as a heatmap that shows relationships between the variables. I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
 
 ## Analysis
 After exploring the data through EDA, I decided to focus on 4 inputs, and two determinants of success:
@@ -145,7 +145,7 @@ Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing
 **Total Gross by Genre**
 ![total_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_gross.png)
 
-The Adventure, Family, Fantasy, and Sci-fi genres have high total gross, in addition to their high average gross. This indicates high volumn - each of these genres represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
+The Adventure, Family, Fantasy, and Sci-fi genres have high total gross, in addition to their high average gross. This indicates high volume - each of these genres represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
 
 **Average Profit by Genre**
 ![avg_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_avg_profit.png)
