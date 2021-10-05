@@ -56,11 +56,11 @@ Inputs (metrics that the movie studio can influence)
 *	country 
 *	content_rating 
 
-I transformed the ```budget``` and ```gross``` to be shown in millions so they will be easier to interpret. I also added additional variables – ```profit_millions```, ```roi```, and ```profit_margin``` - to evaluate the financial results of each movie.
+I transformed the ```budget``` and ```gross``` to be shown in millions so they will be easier to interpret. I also added additional variables – ```profit_millions``` (```gross_millions```-```budget_millions```), ```roi```(```profit_millions```/```budget_millions```), and ```profit_margin``` (```profit_millions```/```gross_millions```) - to evaluate the financial results of each movie.
 
 Next, I filtered the dataset to show only the movies that are most relevant to the analysis. The filtered dataset contains only English language movies, and movies released after 1996 (to show 20 years’ worth of data). 
 
-Next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I trimmed the outliers, and then looked at boxplots for each variable, as well as a heatmap that shows relationships between the variables. I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
+Next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I first trimmed the outliers so I could more easily see the distribution of the variables using visualization tools, and then looked at boxplots for each variable. I used the trimmed values to create a heatmap that shows relationships between the variables without the influence of outliers. I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
 
 ## Analysis
 After exploring the data through EDA, I decided to focus on 4 inputs, and two determinants of success:
@@ -104,6 +104,12 @@ The lead and supporting actors with average normalized profit greater than 2 and
 *Further analysis - what is the overlap between these two lists?*
 
 Finally, I looked at summary outcomes by actor, in order to explore if filtering the results of the normalized profit and ROI analysis by actors who have appeared in at least 4 movies left out any highly profitable actors. This analysis revealed that 86% of the lead actors with the highest average profit and 95% of the actors with the highest average ROI have indeed appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
+
+| ```actor_1_name```  | ```avg_profit_millions``` | ```num_movies``` |
+| ------------- | ------------- | ------------- |
+| Rupert Everett | 286.5  | 1 |
+| CCH Pounder  | 253.7 | 2 |
+| Catherine Dyer  | 227 | 1 |
 
 **Recommendation**
 The studio should aim to work with the actors identified in the previous analysis to seek out consistent results, it's also important to identify and foster relationships with up-and-coming actors. 
