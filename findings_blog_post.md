@@ -223,10 +223,14 @@ The analysis identified groups of lead actors, supporting actors, and directors 
 Recommendations:
 * Lead and Supporting Actors
   * The analysis identified lead and supporting actors with a history of strong financial outcomes. These actors should be considered for future projects.
-  * I also discovered that most of the top actors by profit and ROI are inexperienced. Therefore, the studio should collect and analyze data to try and identify the determinants of success for inexperienced actors. Potential data points include: experience acting in non-movie projects (such as TV shows, theatre productions, or comedy shows), and financial and popular success of non-movie projects.
+  * I also discovered that most of the top actors by profit and ROI are inexperienced. Therefore, the studio should collect and analyze data to try and identify the determinants of success for inexperienced actors. Potential data points include: 
+    * experience acting in non-movie projects (such as TV shows, theatre productions, or comedy shows)
+    * financial and popular success of non-movie projects
 * Directors
   * I identified directors with a history of strong financial outcomes. These directors should be considered for future projects.
-  * Similar to the results for actors, I also found that many top directors by average profit and ROI are inexperienced. The studio should look for opportunities to connect with up-and-coming directors, as well as identify the determinants of success for inexperienced directors. Potential data points include: experience directing non-movie projects (such as TV shows or music videos), experience working as a producer, writer, camera operator, or in another production-oriented role on a movie or non-movie projects. 
+  * Similar to the results for actors, I also found that many top directors by average profit and ROI are inexperienced. The studio should look for opportunities to connect with up-and-coming directors, as well as identify the determinants of success for inexperienced directors. Potential data points include: 
+    * experience directing non-movie projects (such as TV shows or music videos)
+    * experience working as a producer, writer, camera operator, or in another production-oriented role on a movie or non-movie projects
 * Genres - focus on growth in two categories:
   *	Blockbusters
     *	high margin, low volume
