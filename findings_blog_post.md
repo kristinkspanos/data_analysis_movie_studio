@@ -105,11 +105,19 @@ The lead and supporting actors with average normalized profit greater than 2 and
 
 Finally, I looked at summary outcomes by actor, in order to explore if filtering the results of the normalized profit and ROI analysis by actors who have appeared in at least 4 movies left out any highly profitable actors. This analysis revealed that 86% of the lead actors with the highest average profit and 95% of the actors with the highest average ROI have indeed appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
 
+***Top Actors by Avg. Profit***
 | ```actor_1_name```  | ```avg_profit_millions``` | ```num_movies``` |
 | ------------- | ------------- | ------------- |
 | Rupert Everett | 286.5  | 1 |
 | CCH Pounder  | 253.7 | 2 |
 | Catherine Dyer  | 227 | 1 |
+
+***Top Actors by Avg. ROI***
+| ```actor_1_name```  | ```avg_roi``` | ```num_movies``` |
+| ------------- | ------------- | ------------- |
+| Micah Sloat | 7193  | 1 |
+| Greg Ayres | 2959 | 1 |
+| Heather Donahue  | 2341 | 1 |
 
 **Recommendation**
 The studio should aim to work with the actors identified in the previous analysis to seek out consistent results, it's also important to identify and foster relationships with up-and-coming actors. 
