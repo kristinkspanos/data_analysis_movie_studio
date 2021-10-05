@@ -1,6 +1,6 @@
 # Movie Studio Analysis
 
-## project goals
+## Project Goals
 I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film and providing recommendations to a movie studio looking to update their strategy.
 
 I tried to answer the following questions:
@@ -9,7 +9,7 @@ I tried to answer the following questions:
 * Which genres have the strongest financial outcomes - including the highest average profit and gross revenue, and the highest total profit and revenue? Which genres should the studio focus on in the future, and which genres should the studio de-emphasize?
 * Which plot themes are associated with financial success? Which themes tend to be associated with unsuccessful movies? 
 
-## recommendations
+## Recommendations
 I analyzed the relationships between financial outcomes and several factors that the studio may consider when planning their films: lead actors, supporting actors, directors, genres, and plot themes.
 
 ### Lead and Supporting Actors
@@ -40,20 +40,20 @@ I analyzed the relationships between financial outcomes and several factors that
     *	genres: romance, comedy, animation, and family movies
  * De-emphasize	less profitable genres, including action, crime, thriller, and drama
 
-### Plot keywords
+### Plot Keywords
 * The studio should aim to develop films that follow one or more of the plot themes that tend to be associated with high-gross and profitable films.
    * Movies with the plot keywords 'sequel', 'battle', 'spy', 'alien', and 'island' are the highest grossing, on average.
    * Movies with the plot keywords 'wedding', 'island', 'high school', 'female nudity', and 'hospital' are the most profitable, on average.
 * The studio should avoid producing films with plot themes that tend not to be profitable. 
    * Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'future', and 'box office flop' are not profitable, on average. 
 
-## built with
+## Built With
 * Python 3
 * Jupyter Notebook
 * Matplotlib
 * Scipy
 
-## data sources
+## Data Sources
 [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 
 ### Numeric Variables
@@ -89,7 +89,7 @@ language| language
 country| country
 content_rating| content rating (PG, PG13, etc.)
 
-## acknowledgements
+## Acknowledgements
 Kristin Kent Spanos
 
 kristinkspanos@gmail.com
