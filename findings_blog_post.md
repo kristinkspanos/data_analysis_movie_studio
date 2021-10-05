@@ -92,7 +92,7 @@ The list of lead actors is filtered to only show actors who have been lead actor
 
 The first metric analyzed is profit. I normalized the profit metric by dividing each actor’s average profit by the overall average profit. This shows the profit metric’s percent difference from the mean value. 
 
-There are 48 lead actors and 205 supporting actors with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least twice the overall average (a value of one is an average value).
+There are 48 lead actors - including Robert Pattinson, Bryce Dallas Howard, and Steve Carell - and 205 supporting actors - including Seth MacFarlane, Kristen Stewart, and Anna Kendrick - with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least twice the overall average (a value of one is an average value).
 
 ***Top Experienced Lead Actors by Normalized Avg. Profit***
 | ```actor_1_name```  | ```avg_profit_millions``` | ```normalized_profit``` |
@@ -138,7 +138,7 @@ Do certain directors direct in more successful movies?
 
 The list of directors is filtered to only show actors who have directed (‘director_name’) at least 4 movies. Again, I analyzed normalized profit and normalized ROI per director.
  
-There are 77 directors with an average normalized profit greater than two - indicating that these movies have an average profit that is at least twice the overall average. There are only four directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.
+There are 77 directors with an average normalized profit greater than two - including Peter Jackson, Christopher Nolan, and Jon Favreau - indicating that these movies have an average profit that is at least twice the overall average. There are only four directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.
 
 ***Top Experienced Directors by Normalized Avg. Profit***
 | ```director_name```  | ```avg_profit_millions``` | ```normalized_profit``` |
