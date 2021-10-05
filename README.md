@@ -11,7 +11,7 @@ See findings_blog_post.md for summary of results.
 * Jupyter Notebook
 
 ## data sources
-Movie studio dataset, provided by Numa Dhamani
+[IMDB 5000 movie dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 
 ### Numeric Variables
 Field | Description
