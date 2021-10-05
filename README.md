@@ -9,6 +9,8 @@ See findings_blog_post.md for summary of results.
 ## built with
 * Python 3
 * Jupyter Notebook
+* Matplotlib
+* Scipy
 
 ## data sources
 [IMDB 5000 movie dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
