@@ -3,7 +3,7 @@
 ## project goals
 I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film and providing recommendations to a movie studio looking to update their strategy.
 
-The questions I tried to answer are:
+I tried to answer the following questions:
 * Which lead and supporting actors tend to appear in movies with strong financial outcomes? Can I identify a list of actors with a track record of successful films for the studio to consider when planning future projects?
 * Which directors direct the most financially successful films? Can I produce a list of directors with a history of strong financial outcomes for the studio to use when planning future projects?
 * Which genres have the strongest financial outcomes - including the highest average profit and gross revenue, and the highest total profit and revenue? Which genres should the studio focus on in the future, and which genres should the studio de-emphasize?
