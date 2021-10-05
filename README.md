@@ -3,6 +3,9 @@
 ## project goals
 After a few tough years financially and a series of unsuccessful films, a movie studio is looking to update their strategy. I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film.
 
+## recommendations
+I analyzed the relationships between financial outcomes and several factors that the studio may consider when planning their films: lead actors, supporting actors, directors, genres, and plot themes.
+
 ## results
 See findings_blog_post.md for summary of results.
 
@@ -13,7 +16,7 @@ See findings_blog_post.md for summary of results.
 * Scipy
 
 ## data sources
-[IMDB 5000 movie dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
+[IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 
 ### Numeric Variables
 Field | Description
