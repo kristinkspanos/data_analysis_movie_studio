@@ -1,7 +1,6 @@
 # Movie Studio Analysis Findings
 ## Scenario
 After a few tough years financially and a series of unsuccessful films, a movie studio is looking to update their strategy. I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film.
-This project was developed by Numa Dhamani as part of my mentorship. The dataset and prompt were provided by Numa.
 
 ## Investigate the data through exploratory data analysis 
 Before diving into the analysis, I performed exploratory data analysis (EDA) to familiarize myself with the variables included in the dataset. 
