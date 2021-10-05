@@ -80,4 +80,5 @@ content_rating| content rating (PG, PG13, etc.)
 
 ## acknowledgements
 Kristin Kent Spanos
+
 kristinkspanos@gmail.com
