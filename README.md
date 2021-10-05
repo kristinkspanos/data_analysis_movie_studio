@@ -14,15 +14,15 @@ I analyzed the relationships between financial outcomes and several factors that
 
 * Lead and Supporting Actors
   * The analysis identified lead and supporting actors with a history of strong financial outcomes. These actors should be considered for future projects.
-    * Top lead actors by average profit include:
+    * Top lead actors by average profit include: Robert Pattinson, Bryce Dallas Howard, Steve Carell, Jennifer Lawrence, Bradley Cooper
     * Top supporting actors by average profit include:
-    * Top lead actors by ROI include:
+    * Top lead actors by ROI include: Mark Margolis, Lin Shaye, Noel Gugliemi, Robert Duvall, and Kevin Zegers
     * Top supporting actors by ROI include:
   * I also discovered that most of the top actors by profit and ROI are inexperienced (defined as appearing in fewer than 4 movies). The studio should collect and analyze data to try and identify the determinants of success for inexperienced actors. Potential data points include: experience acting in non-movie projects (such as TV shows, theatre productions, or comedy shows), and financial and popular success of non-movie projects.
 * Directors
   * I identified directors with a history of strong financial outcomes. These directors should be considered for future projects.
-    * Top directors by average profit include:
-    * Top directors by ROI include: 
+    * Top directors by average profit include: Peter Jackson, Francis Lawrence, Andrew Adamson, Phil Lord, and Christopher Nolan
+    * Top directors by ROI include: Alex Kendrick, James Wan, Darren Aronofsky, Michael Moore, and Darren Lynn Bousman
   * Similar to the results for actors, I also found that many top directors by average profit and ROI are inexperienced. The studio should look for opportunities to connect with up-and-coming directors, as well as identify the determinants of success for inexperienced directors. Potential data points include: experience directing non-movie projects (such as TV shows or music videos), experience working as a producer, writer, camera operator, or in another production-oriented role on a movie or non-movie projects. 
 * Genres - focus on growth in two categories:
   *	Blockbusters
