@@ -84,7 +84,7 @@ It's also important to note that we do not have data on the dollar amount paid t
 ## Actor analysis 
 Do certain actors tend to appear in more successful movies? 
 
-The movie_studio dataset has three fields that contain actor names" ```actor_1_name```, ```actor_2_name```, ```actor_3_name```. 
+The movie_studio dataset has three fields that contain actor names: ```actor_1_name```, ```actor_2_name```, ```actor_3_name```. 
 
 I analyze the outcomes for the lead actor in a movie (```actor_1_name```) separately from the outcomes for the supporting actors (```actor_2_name```, ```actor_3_name```). This method is imperfect, because some movies have more than one headliner, and some have ensemble casts - these realities are not reflected in the data we have available. Therefore, the resulting lists of lead actors with strong financial outcomes may leave out some actors who were not coded as actor_1_name in the movies they starred in. However, this analysis will provide a strong starting point for identifying which actors appear in movies with the strongest financial outcomes.
 
