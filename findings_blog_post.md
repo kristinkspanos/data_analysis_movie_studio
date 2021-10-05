@@ -94,6 +94,15 @@ The first metric analyzed is profit. I normalized the profit metric by dividing 
 
 There are 48 lead actors and 205 supporting actors with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least twice the overall average (a value of one is an average value).
 
+***Top Experienced Lead Actors by Normalized Avg. Profit***
+| ```actor_1_name```  | ```avg_profit_millions``` | ```normalized_profit``` |
+| ------------- | ------------- | ------------- |
+| Robert Pattinson | 130.8 | 12.8 |
+| Bryce Dallas Howard | 128.6 | 12.6 |
+| Steve Carell | 97.3| 9.5 |
+| Jennifer Lawrence | 84.7 | 8.3 |
+| Bradley Cooper | 80.7 | 7.9 |
+
 Next, I analyzed each actor’s ROI. Again, I normalized ROI by dividing each actor’s average ROI by the overall average ROI, creating a metric that shows each profit metric’s percent difference from the mean value. 
 
 There are 31 lead actors and 105 supporting actors with an average normalized ROI, as a pct. of overall average greater than 1.5 - indicating that the movies these actors appear in have an average ROI that is at least 50%.
@@ -129,7 +138,16 @@ Do certain directors direct in more successful movies?
 
 The list of directors is filtered to only show actors who have directed (‘director_name’) at least 4 movies. Again, I analyzed normalized profit and normalized ROI per director.
  
-There are 77 directors with an average normalized profit greater than two - indicating that these movies have an average profit that is at least twice the overall average. There are only four directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.  
+There are 77 directors with an average normalized profit greater than two - indicating that these movies have an average profit that is at least twice the overall average. There are only four directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.
+
+***Top Experienced Directors by Normalized Avg. Profit***
+| ```director_name```  | ```avg_profit_millions``` | ```normalized_profit``` |
+| ------------- | ------------- | ------------- |
+| Peter Jackson | 152 | 14.9 |
+| Francis Lawrence | 151.1 | 14.8 |
+| Andrew Adamson | 130.6 | 12.8 |
+| Phil Lord | 115.2 | 11.3 |
+| Christopher Nolan | 101 | 9.9 |
 
 *Further analysis – pick a lower ROI threshold for directors?*
  
