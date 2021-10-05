@@ -30,18 +30,21 @@ I analyzed the relationships between financial outcomes and several factors that
   *  Experience directing non-movie projects (such as TV shows or music videos)
   *  Experience working as a producer, writer, camera operator, or in another production-oriented role on a movie or non-movie projects
 
-### Genres - focus on growth in two categories:
-*	Blockbusters
-  *	high margin, low volume
-  *	genres: Action, Adventure, and Fantasy movies
-*	Crowd-pleasers
-  * low margin, high volume	 
-  *	genres: Romance, Comedy, Animation, and Family movies
+### Genres
+* Focus on growth in two categories - blockbusters and crowd-pleasers:
+  *	Blockbusters
+    *	high margin, low volume
+    *	genres: adventure, sci-fi, and fantasy movies
+  *	Crowd-pleasers
+    * low margin, high volume	 
+    *	genres: romance, comedy, animation, and family movies
+ * De-emphasize	less profitable genres, including action, crime, thriller, and drama
 
 ### Plot keywords
-* I identified the plot keywords with the highest average gross revenue and profit, as well as the keywords that are unprofitable, on average. The studio should aim to develop films that follow one or more of these plot themes.
+* The studio should aim to develop films that follow one or more of the plot themes that tend to be associated with high-gross and profitable films.
    * Movies with the plot keywords 'sequel', 'battle', 'spy', 'alien', and 'island' are the highest grossing, on average.
    * Movies with the plot keywords 'wedding', 'island', 'high school', 'female nudity', and 'hospital' are the most profitable, on average.
+* The studio should avoid producing films with plot themes that tend not to be profitable. 
    * Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'future', and 'box office flop' are not profitable, on average. 
 
 ## built with
