@@ -220,6 +220,25 @@ The plot keywords with the highest average gross and profit are likely to be ass
 ## Conclusion
 The analysis identified groups of lead actors, supporting actors, and directors whose movies are financially successful, on average. I also recommended that the studio focus on two genre groupings - blockbusters (high margin, low volume films), and crowd-pleasers (low margin, high-volume films – and deemphasize less profitable genres. Finally, I identified keywords that have high average profit and ROI – as well as keywords with weak results. These keywords provide direction for which plot themes the studio should embrace and avoid in the future.
 
+Recommendations:
+* Lead and Supporting Actors
+  * The analysis identified lead and supporting actors with a history of strong financial outcomes. These actors should be considered for future projects.
+  * I also discovered that most of the top actors by profit and ROI are inexperienced. Therefore, the studio should collect and analyze data to try and identify the determinants of success for inexperienced actors. Potential data points include: experience acting in non-movie projects (such as TV shows, theatre productions, or comedy shows), and financial and popular success of non-movie projects.
+* Directors
+  * I identified directors with a history of strong financial outcomes. These directors should be considered for future projects.
+  * Similar to the results for actors, I also found that many top directors by average profit and ROI are inexperienced. The studio should look for opportunities to connect with up-and-coming directors, as well as identify the determinants of success for inexperienced directors. Potential data points include: experience directing non-movie projects (such as TV shows or music videos), experience working as a producer, writer, camera operator, or in another production-oriented role on a movie or non-movie projects. 
+* Genres - focus on growth in two categories:
+  *	Blockbusters (high margin, low volume)
+    *	Genres: Action, Adventure, and Fantasy movies
+    *	Budget: High-budget
+    *	Frequency: low frequency
+  *	Crowd-pleasers (low margin, high volume)
+    *	Genres: Romance, Comedy, Animation, Family
+    *	Budget: low-budget
+    *	Frequency: high frequency
+* Plot keywords
+  * I identified the plot keywords with the highest average gross and profit, as well as the keywords that are unprofitable, on average. The studio should aim to develop films that follow one or more of these plot themes. 
+
  ## Ideas for Additional Analysis
  
 This is not an exhaustive analysis of all the elements that could contribute to the financial success of a movie. Additional analysis could be performed on the data in the dataset provided:
@@ -229,5 +248,5 @@ This is not an exhaustive analysis of all the elements that could contribute to 
 *	Group similar keywords together. (i.e. ‘marriage’, ‘marriage ceremony’, and ‘marriage proposal’ are all separate keywords – but it may be useful to analyze their results together. 
 * Analysis of outcomes by content rating.
 
- While this analysis focuses on increasing revenue for the movie studio, the studio could also explore strategies for cutting costs using more detailed budget data. Moreover, the studio could explore distribution strategies using data on revenue sources (movie theatres, streaming services, television replays, etc.).
+While this analysis focuses on increasing revenue for the movie studio, the studio could also explore strategies for cutting costs using more detailed budget data. Moreover, the studio could explore distribution strategies using data on revenue sources (movie theatres, streaming services, television replays, etc.).
 
