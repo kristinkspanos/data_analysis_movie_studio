@@ -1,7 +1,7 @@
 # Movie Studio Analysis
 
 ## project goals
-Use data analysis to help a film studio determine what leads to a successful movie. This project was developed by Numa Dhamani as part of my mentorship.
+After a few tough years financially and a series of unsuccessful films, a movie studio is looking to update their strategy. I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film.
 
 ## results
 See findings_blog_post.md for summary of results.
