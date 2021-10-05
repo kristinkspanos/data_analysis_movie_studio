@@ -228,14 +228,13 @@ Recommendations:
   * I identified directors with a history of strong financial outcomes. These directors should be considered for future projects.
   * Similar to the results for actors, I also found that many top directors by average profit and ROI are inexperienced. The studio should look for opportunities to connect with up-and-coming directors, as well as identify the determinants of success for inexperienced directors. Potential data points include: experience directing non-movie projects (such as TV shows or music videos), experience working as a producer, writer, camera operator, or in another production-oriented role on a movie or non-movie projects. 
 * Genres - focus on growth in two categories:
-  *	Blockbusters (high margin, low volume)
-    *	Genres: Action, Adventure, and Fantasy movies
-    *	Budget: High-budget
-    *	Frequency: low frequency
-  *	Crowd-pleasers (low margin, high volume)
-    *	Genres: Romance, Comedy, Animation, Family
-    *	Budget: low-budget
-    *	Frequency: high frequency
+  *	Blockbusters
+    *	high margin, low volume
+    *	genres: Action, Adventure, and Fantasy movies
+  *	Crowd-pleasers
+    * low margin, high volume	 
+    *	genres: Romance, Comedy, Animation, and Family movies
+
 * Plot keywords
   * I identified the plot keywords with the highest average gross and profit, as well as the keywords that are unprofitable, on average. The studio should aim to develop films that follow one or more of these plot themes. 
 
