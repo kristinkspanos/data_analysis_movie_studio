@@ -15,7 +15,7 @@ I analyzed the relationships between financial outcomes and several factors that
 ### Lead and Supporting Actors
 * The analysis identified experienced (appeared in 4 or more movies) lead and supporting actors with a history of strong financial outcomes. These actors should be considered for future projects.
   * Top lead actors by average profit include: Robert Pattinson, Bryce Dallas Howard, Steve Carell, Jennifer Lawrence, Bradley Cooper
-  * Top supporting actors by average profit include:
+  * Top supporting actors by average profit include: Billy Boyd, Josh Hutcherson, Joel David Moore, Rupert Grint, and John Ratzenberger
   * Top lead actors by ROI include: Mark Margolis, Lin Shaye, Noel Gugliemi, Robert Duvall, and Kevin Zegers
   * Top supporting actors by ROI include:
 * I also discovered that most of the top actors by profit and ROI are inexperienced (defined as appearing in fewer than 4 movies). The studio should collect and analyze data to try and identify the determinants of success for inexperienced actors. Potential data points include: 
