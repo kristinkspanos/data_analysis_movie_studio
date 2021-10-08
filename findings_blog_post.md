@@ -150,6 +150,8 @@ Finally, I looked at summary outcomes by actor, in order to explore if filtering
 | Rupert Everett | 286.5  | 1 |
 | CCH Pounder  | 253.7 | 2 |
 | Catherine Dyer  | 227 | 1 |
+| Kathleen Freeman  | 207.7 | 1 |
+| Phaldut Sharma  | 174.1 | 1 |
 
 ***Top Actors by Avg. ROI***
 | ```actor_1_name```  | ```avg_roi``` | ```num_movies``` |
@@ -157,6 +159,8 @@ Finally, I looked at summary outcomes by actor, in order to explore if filtering
 | Micah Sloat | 7193  | 1 |
 | Greg Ayres | 2959 | 1 |
 | Heather Donahue  | 2341 | 1 |
+| Pfeider Brown  | 226.6 | 1 |
+| Chemeeka Walker  | 176.4 | 1 |
 
 **Recommendation**
 The studio should aim to work with the actors identified in the previous analysis to seek out consistent results, it's also important to identify and foster relationships with up-and-coming actors. 
