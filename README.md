@@ -1,7 +1,7 @@
 # Movie Studio Analysis
 
 ## Project Goals
-I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film and providing recommendations to a movie studio looking to update their strategy.
+I analyzed a dataset of over 5000 films with the goal of developing insights on what features contribute to a successful film and providing recommendations to a movie studio looking to update their strategy.
 
 I tried to answer the following questions:
 * Which lead and supporting actors tend to appear in movies with strong financial outcomes? Can I identify a list of actors with a track record of successful films for the studio to consider when planning future projects?
