@@ -72,6 +72,7 @@ After exploring the data through EDA, I decided to focus on 4 inputs, and two de
 *	Determinants of success
     *	profit (```profit_millions```)
     *	roi (```roi```)
+    *	gross revenue (```gross```)
 
 I chose to ignore the non-monetary metrics that represent the popularity of a movie's actors and director (the Facebook likes of the actors and director) because they have weak or non-existent correlations with the monetary metrics of a movie’s success. Moreover, Facebook didn’t exist for the entire period of time we are analyzing, and the audencies that use Facebook and its various features has changed dramatically over the past 15 years.
 
@@ -90,9 +91,9 @@ I analyze the outcomes for the lead actor in a movie (```actor_1_name```) separa
 
 The list of lead actors is filtered to only show actors who have been lead actor in at least 4 movies. The list of supporting actors is filtered to only show actors who have been a supporting actor in at least 4 movies. 
 
-The first metric analyzed is profit. I normalized the profit metric by dividing each actor’s average profit by the overall average profit. This shows the profit metric’s percent difference from the mean value. 
+The first metric analyzed is profit. I normalized the profit metric by dividing each actor’s average profit by the overall average profit. This shows the profit metric’s percent difference from the mean value. I set the profit baseline (the minimum value to be captured by the analysis) to the 75th percentile of normalized profit for all movies - which is equal to 2.09, or a little bit more than twice the average profit.
 
-There are 48 lead actors - including Robert Pattinson, Bryce Dallas Howard, and Steve Carell - and 205 supporting actors - including Seth MacFarlane, Kristen Stewart, and Anna Kendrick - with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least twice the overall average (a value of one is an average value).
+There are 48 lead actors - including Robert Pattinson, Bryce Dallas Howard, and Steve Carell - and 128 supporting actors - including Billy Boyd, Josh Hutcherson, and Joel David Moore - with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least twice the overall average (a value of one is an average value).
 
 ***Top Experienced Lead Actors by Normalized Avg. Profit***
 | ```actor_1_name```  | ```avg_profit_millions``` | ```normalized_profit``` |
@@ -103,12 +104,41 @@ There are 48 lead actors - including Robert Pattinson, Bryce Dallas Howard, and 
 | Jennifer Lawrence | 84.7 | 8.3 |
 | Bradley Cooper | 80.7 | 7.9 |
 
-Next, I analyzed each actor’s ROI. Again, I normalized ROI by dividing each actor’s average ROI by the overall average ROI, creating a metric that shows each profit metric’s percent difference from the mean value. 
+***Top Experienced Supporting Actors by Normalized Avg. Profit***
+| ```names```  | ```avg_profit_millions``` | ```normalized_profit``` |
+| ------------- | ------------- | ------------- |
+| Billy Boyd | 188.8 | 18.5 |
+| Josh Hutcherson | 184.3 | 18.1 |
+| Joel David Moore | 176.2 | 17.3 |
+| Rupert Grint | 118.3 | 11.6 |
+| John Ratzenberger | 116.2 | 11.4 |
 
-There are 31 lead actors and 105 supporting actors with an average normalized ROI, as a pct. of overall average greater than 1.5 - indicating that the movies these actors appear in have an average ROI that is at least 50%.
+Four of top five supporting actors by normalized average profit all appeared in blockbuster series' (Billy Boyd in Lord of the Rings, Josh Hutcherson in Hunger Games, Rupert Grint in Harry Potter, and Josh Ratzenberger in Toy Story, Monsters Inc., Cars, and The Incredibles). It's unclear what the impact of series' are on an actor's career - do actors who appear in blockbuster series have strong financial outcomes in subsequent films? Or are they unable to break the mold of the character they repeatedly played? This is an interesting question for further analysis.
+
+Next, I analyzed each actor’s ROI. I set the baseline ROI at the 75th percentile of ROI for all movies - which equals and ROI of 94%.
+
+There are 54 lead actors - including Mark Margolis, Lin Shaye, and Noel Gugliemi -  and 113 supporting actors - including John Gries, Barbara Hershey, and Diedrich Bader - with an average ROI greater than 94%.
+
+***Top Experienced Lead Actors by ROI***
+| ```actor_1_name```  | ```roi``` |
+| ------------- | ------------- |
+| Mark Margolis | 18.8 | 
+| Lin Shaye | 16 |
+| Noel Gugliemi | 6.3 |
+| Robert Duvall | 5 |
+| Kevin Zegers | 3.7 |
+
+***Top Experienced Supporting Actors by ROI***
+| ```names```  | ```roi``` |
+| ------------- | ------------- |
+| Jon Gries | 28 | 
+| Barbara Hershey | 25.4 |
+| Diedrich Bader	 | 18.3 |
+| Shawnee Smith | 15.9 |
+| Ethan Suplee | 12.6 |
 
 **Recommendation**
-The lead and supporting actors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of appearing in movies with strong financial results, and should be hired on future movies.
+The lead and supporting actors with average normalized profit greater than 2.09 and/or average ROI greater than 94% have a track record of appearing in movies with strong financial results, and should be hired on future movies.
 
 *Further analysis - what is the overlap between these two lists?*
 
@@ -131,14 +161,16 @@ Finally, I looked at summary outcomes by actor, in order to explore if filtering
 **Recommendation**
 The studio should aim to work with the actors identified in the previous analysis to seek out consistent results, it's also important to identify and foster relationships with up-and-coming actors. 
 
-The studio should consider gathering additional data on actors who have appeared in fewer than 4 movies to see if any trends can be identified. The studio may also consider developing programs to identify promising young actors.
+The studio should consider gathering additional data on actors who have appeared in fewer than 4 movies to see if any trends can be identified.  Potential data points include:
+* Experience acting in non-movie projects (such as TV shows, theatre productions, or comedy shows)
+* Financial and popular success of non-movie projects
 
 ## Director analysis 
 Do certain directors direct in more successful movies? 
 
 The list of directors is filtered to only show actors who have directed (‘director_name’) at least 4 movies. Again, I analyzed normalized profit and normalized ROI per director.
  
-There are 77 directors with an average normalized profit greater than two - including Peter Jackson, Christopher Nolan, and Jon Favreau - indicating that these movies have an average profit that is at least twice the overall average. There are only four directors with average normalized ROI average greater than 1.5 - indicating that the movies these directors direct have an average ROI that is at least 50% above the overall average.
+There are 74 directors with an average normalized profit greater than the profit baseline - including Peter Jackson, Francis Lawrence, and Andrew Adamson - indicating that these movies have an average profit that is at least twice the overall average. 
 
 ***Top Experienced Directors by Normalized Avg. Profit***
 | ```director_name```  | ```avg_profit_millions``` | ```normalized_profit``` |
@@ -149,7 +181,15 @@ There are 77 directors with an average normalized profit greater than two - incl
 | Phil Lord | 115.2 | 11.3 |
 | Christopher Nolan | 101 | 9.9 |
 
-*Further analysis – pick a lower ROI threshold for directors?*
+There are 77 directors with average normalized ROI average greater than the ROI baseline - including Alex Kendrick, James Wan, and Darren Aronofsky indicating that the movies these directors direct have an average ROI that is at least 0.94 - or 94%.
+
+| ```director_name```  | ```roi``` |
+| ------------- | ------------- |
+| Alex Kendrick | 61 |
+| James Wan | 14.8 |
+| Darrem Aronofsky | 10.4 |
+| Michael Moore | 8.3 |
+| Darren Lynn Bousman | 8 |
  
 **Recommendation**
 The directors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of directing in movies with strong financial results, and should be hired on future movies. 
@@ -158,10 +198,12 @@ The directors with average normalized profit greater than 2 and/or average norma
 
 I also looked at the summary outcomes for all directors for these metrics. This analysis revealed that 75% of the directors with the highest average profit and 21% of the directors with the highest average ROI have appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
 
-**Recommendation**
-While the studio should aim to work with directors with a track record of financial success to seek out consistent profit, the most profitable directors, and those whose movies have the highest ROIs, can often be up-and-coming directors. The studio should look for opportunities to engage with aspiring directors.
 
-Further analysis is needed to determine determinants of success for up-and-coming directors. 
+
+**Recommendation**
+While the studio should aim to work with directors with a track record of financial success in order to seek out consistent profit, the most profitable directors, and those whose movies have the highest ROIs, are can often be up-and-coming directors. Therefore, the studio should not ignore new talent and should gather more data on inexperienced directors. Potential data points include:
+* Experience directing non-movie projects (such as TV shows or music videos)
+* Experience working as a producer, writer, camera operator, or in another production-oriented role on a movie or non-movie projects
 
 ## Genre analysis 
 How do financial outcomes differ by genre? Which genres are most successful? 
