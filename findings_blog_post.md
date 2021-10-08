@@ -156,11 +156,11 @@ Finally, I looked at summary outcomes by actor, in order to explore if filtering
 ***Top Actors by Avg. ROI***
 | ```actor_1_name```  | ```avg_roi``` | ```num_movies``` |
 | ------------- | ------------- | ------------- |
-| Micah Sloat | 7193  | 1 |
+| Micah Sloat | 7193  | 2 |
 | Greg Ayres | 2959 | 1 |
 | Heather Donahue  | 2341 | 1 |
 | Pfeider Brown  | 226.6 | 1 |
-| Chemeeka Walker  | 176.4 | 1 |
+| Chemeeka Walker  | 176.4 | 4 |
 
 **Recommendation**
 The studio should aim to work with the actors identified in the previous analysis to seek out consistent results, it's also important to identify and foster relationships with up-and-coming actors. 
@@ -187,6 +187,7 @@ There are 74 directors with an average normalized profit greater than the profit
 
 There are 77 directors with average normalized ROI average greater than the ROI baseline - including Alex Kendrick, James Wan, and Darren Aronofsky indicating that the movies these directors direct have an average ROI that is at least 0.94 - or 94%.
 
+***Top Experienced Directors by ROI***
 | ```director_name```  | ```roi``` |
 | ------------- | ------------- |
 | Alex Kendrick | 61 |
@@ -202,7 +203,23 @@ The directors with average normalized profit greater than 2 and/or average norma
 
 I also looked at the summary outcomes for all directors for these metrics. This analysis revealed that 75% of the directors with the highest average profit and 21% of the directors with the highest average ROI have appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
 
+***Top Direrctors by Avg. Profit***
+| ```director_name```  | ```avg_profit_millions``` | ```num_movies``` |
+| ------------- | ------------- | ------------- |
+| James Cameron | 491.1  | 2 |
+| Tim Miller | 305 | 1 |
+| George Lucas | 274.2 | 3 |
+| Kyle Balda | 262 | 1 |
+| Colin Trevorrow | 252.7 | 2 |
 
+***Top Directors by Avg. ROI***
+| ```director_name```  | ```avg_roi``` | ```num_movies``` |
+| ------------- | ------------- | ------------- |
+| Oren Peli | 7193.5  | 1 |
+| Jonathan Caouette | 2959 | 1 |
+| Daniel Myrick  | 2341 | 1 |
+| Travis Cluff  | 226.6 | 1 |
+| Alex Kendrick  | 50.97 | 1 |
 
 **Recommendation**
 While the studio should aim to work with directors with a track record of financial success in order to seek out consistent profit, the most profitable directors, and those whose movies have the highest ROIs, are can often be up-and-coming directors. Therefore, the studio should not ignore new talent and should gather more data on inexperienced directors. Potential data points include:
