@@ -60,7 +60,7 @@ I transformed the ```budget``` and ```gross``` to be shown in millions so they w
 
 Next, I filtered the dataset to show only the movies that are most relevant to the analysis. The filtered dataset contains only English language movies, and movies released after 1996 (to show 20 years’ worth of data). 
 
-Next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I first trimmed the outliers so I could more easily see the distribution of the variables using visualization tools, and then looked at boxplots for each variable.
+I used ```.value_counts()``` to look at the distribution of each categorical variable. The next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I first trimmed the outliers so I could more easily see the distribution of the variables using visualization tools, and then looked at boxplots for each variable.
 
 ***Boxplot - ROI***
 
@@ -85,8 +85,6 @@ I used the trimmed values to create a heatmap that shows relationships between t
 
 ***Heatmap***
 ![heatmap](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/heatmap.png)
-
-I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
 
 ## Analysis
 After exploring the data through EDA, I decided to focus on 4 inputs, and three determinants of success:
