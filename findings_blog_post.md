@@ -232,22 +232,22 @@ How do financial outcomes differ by genre? Which genres are most successful?
 Movies can be classified under more than one genre. For this analysis, a movie’s outcomes are included in the aggregate outcome for each genre it is classified as. For example - a movie whose genres are "romance" and "comedy" will be included in the analyses for both genres.
 
 **Average Gross by Genre**
-![avg_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_avg_gross.png)
+![avg_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/barplot_avg_gross_genre.png)
 
 Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing, on average.
 
 **Total Gross by Genre**
-![total_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_gross.png)
+![total_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/barplot_total_gross_genre.png)
 
 The Adventure, Family, Fantasy, and Sci-fi genres have high total gross, in addition to their high average gross. This indicates high volume - each of these genres represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
 
 **Average Profit by Genre**
-![avg_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_avg_profit.png)
+![avg_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/barplot_avg_profit_genre.png)
 
 Animation and Family have the highest average profits. Adventure, Comedy, Fantasy, Horror, Music, and Sci-fi movies also have above-average average profits. Action, Crime, Documentary, Drama, and Thriller movies tend have below-average profits.
 
 **Total Profit by Genre**
-![total_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/genre_sum_profit.png)
+![total_profit_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/barplot_total_profit_genre.png)
  
 Comedies have the highest total profits. The Comedy genre is high volumne (15% of all movies) and Comedies have have above-average profitability.
  
