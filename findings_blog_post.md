@@ -63,10 +63,12 @@ Next, I filtered the dataset to show only the movies that are most relevant to t
 Next step in EDA is to explore the summary statistics and distributions of the numeric variables, as well as relationships between these variables. For this portion of the analysis, I first trimmed the outliers so I could more easily see the distribution of the variables using visualization tools, and then looked at boxplots for each variable.
 
 ***Boxplot - ROI***
+
 ![boxplot_roi_w_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_roi_outliers.png)
 
 
 ***Boxplot - ROI (trimmed outliers)***
+
 ![boxplot_roi_no_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_roi.png)
 
 I used the trimmed values to create a heatmap that shows relationships between the variables without the influence of outliers. I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
