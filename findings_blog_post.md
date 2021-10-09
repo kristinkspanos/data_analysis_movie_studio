@@ -81,14 +81,10 @@ Next step in EDA is to explore the summary statistics and distributions of the n
 
 ![boxplot_dollar_metrics_no_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_dollar_metrics.png)
 
-I used the trimmed values to create a heatmap that shows relationships between the variables without the influence of outliers. 
-
-
-
-I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
+I used the trimmed values to create a heatmap that shows relationships between the variables without the influence of outliers. I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
 
 ## Analysis
-After exploring the data through EDA, I decided to focus on 4 inputs, and two determinants of success:
+After exploring the data through EDA, I decided to focus on 4 inputs, and three determinants of success:
 *	Inputs
     *	actors (```actor_1_name```, ```actor_2_name```, ```actor_3_name```) 
     *	directors (```director_name```)
@@ -99,11 +95,15 @@ After exploring the data through EDA, I decided to focus on 4 inputs, and two de
     *	roi (```roi```)
     *	gross revenue (```gross```)
 
+Profit is best for analyzing films with the largest overall profit, but when taken on its own, it may mask the success of films that require fewer resources, but achieve strong financial results in relation to those resources. ROI captures profit in relation to budget, and is therefore a good metric for capturing films that use their resources efficiently.
+
+I chose not to include profit margin because this analysis asks me to identify which elements lead to successful movies - not cost-cutting or pricing strategies which might be better captured by profit margin. Moreover, profit margin is highly correlated with ROI, so movies with strong profit margins will likely be captured in ROI analysis.
+
 I chose to ignore the non-monetary metrics that represent the popularity of a movie's actors and director (the Facebook likes of the actors and director) because they have weak or non-existent correlations with the monetary metrics of a movie’s success. Moreover, Facebook didn’t exist for the entire period of time we are analyzing, and the audencies that use Facebook and its various features has changed dramatically over the past 15 years.
 
 I assume that the financial metrics of a movie’s success are most relevant to the movie studio’s decision-making processes, and therefore will not consider the non-monetary metrics of a movie’s success in the analysis.
 
-I chose not to include profit margin because this analysis asks me to identify which elements lead to successful movies - not cost-cutting or pricing strategies which might be better captured by profit margin. Moreover, profit margin is highly correlated with ROI, so movies with strong profit margins will likely be captured in ROI analysis.
+
 
 It's also important to note that we do not have data on the dollar amount paid to each actor or director for appearing in/directing a movie. The profit and ROI figures analyzed capture the profit and ROI of the movie itself. Therefore, we cannot make a judgement on whether a particular actor or director has a strong ROI for his or her salary, but instead whether they appeared in movies that achieved a strong ROI on the movie’s overall budget.
 
