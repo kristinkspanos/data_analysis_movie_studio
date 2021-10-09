@@ -81,7 +81,12 @@ Next step in EDA is to explore the summary statistics and distributions of the n
 
 ![boxplot_dollar_metrics_no_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_dollar_metrics.png)
 
-I used the trimmed values to create a heatmap that shows relationships between the variables without the influence of outliers. I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
+I used the trimmed values to create a heatmap that shows relationships between the variables without the influence of outliers.
+
+***Heatmap***
+![heatmap](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/heatmap.png)
+
+I also used ```.value_counts()``` to look at the distribution of each categorical variable. 
 
 ## Analysis
 After exploring the data through EDA, I decided to focus on 4 inputs, and three determinants of success:
