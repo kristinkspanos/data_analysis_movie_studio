@@ -67,6 +67,11 @@ Next step in EDA is to explore the summary statistics and distributions of the n
 ![boxplot_roi_w_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_roi_outliers.png)
 
 
+***Boxplot - ROI (trimmed outliers)***
+
+![boxplot_roi_w_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_roi.png)
+
+
 ***Boxplot - Gross, Budget and Profit***
 
 ![boxplot_roi_no_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_dollar_metrics_outliers.png)
