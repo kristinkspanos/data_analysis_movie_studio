@@ -45,7 +45,7 @@ My analysis found that the studio should focus on growth in two categories, Bloc
  * De-emphasize	less profitable genres, including action, crime, thriller, and drama
 
 ### Plot Keywords
-* The studio should aim to develop films that follow one or more of the plot themes that tend to be associated with profitable films, and avoid plot keywords that tend to be associated with unprofitable films. There appears to be great variation in the results per keyword, so further analysis is needed to determine which keywords are associated with consistent, positive finacial outcomes.
+I identified plot keywords that tend to have strong financial outcomes. The studio should aim to develop films that follow one or more of the plot themes that tend to be associated with profitable films, and avoid plot keywords that tend to be associated with unprofitable films. There appears to be great variation in the results per keyword, so further analysis is needed to determine which keywords are associated with consistent, positive finacial outcomes, and which features lead to success for movies within a certain plot keyword.
    * Movies with the plot keywords 'wedding', 'island', 'high school', 'female nudity', and 'hospital' are the most profitable, on average.
    * Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'future', and 'box office flop' are not profitable, on average.
 
