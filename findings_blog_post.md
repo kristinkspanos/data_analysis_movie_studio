@@ -83,7 +83,7 @@ After exploring the data through EDA, I decided to focus on 4 inputs, and three 
     *	roi (```roi```)
     *	gross revenue (```gross```)
 
-Profit is best for analyzing films with the largest overall profit, but when taken on its own, it may mask the success of films that require fewer resources, but achieve strong financial results in relation to those resources. ROI captures profit in relation to budget, and is therefore a good metric for capturing films that use their resources efficiently.
+Profit is best for analyzing films with the largest overall profit, but when taken on its own, it may mask the success of films that require fewer resources, but achieve strong financial results in relation to those resources. ROI captures profit in relation to budget, and is therefore a good metric for capturing films that use their resources efficiently. 
 
 I chose not to include profit margin because this analysis asks me to identify which elements lead to successful movies - not cost-cutting or pricing strategies which might be better captured by profit margin. Moreover, profit margin is highly correlated with ROI, so movies with strong profit margins will likely be captured in ROI analysis.
 
