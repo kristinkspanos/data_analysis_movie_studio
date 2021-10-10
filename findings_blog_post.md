@@ -280,16 +280,18 @@ Do movies with certain plot keywords have more successful outcomes?
  
 More than one plot keyword may be associated with a movie. For this analysis, a movie’s outcomes are included in the aggregate outcome for each plot keyword associated with that movie. For example - a movie whose plot keywords are "doctor" and "scientist" will be included in the analyses for both keywords. 
  
-The list of movies is filtered to only show keywords (‘plot_keywords’) associated with at least 30 movies.
+The list of movies is filtered to only show keywords (‘plot_keywords’) associated with at least 30 movies. There are 6612 keywords todtal, but only 51 are associated with at least 30 movies.
 
-There are only 6 keywords with average normalized profit greater than 2, and none with average normalized ROI greater than 1.5. This indicates that there is likely large variation in the outcomes for any given keyword. Because the normalized profit and ROI analysis did not produce many keywords of interest, we will instead look at the highest grossing and most profitable keywords.
-Highest grossing and most profitable keywords:
-*	Movies with the plot keywords 'sequel', 'battle', 'spy', 'alien', and 'island' are the highest grossing, on average.
-*	Movies with the plot keywords 'wedding', 'island', 'high school', 'female nudity', and 'hospital' are the most profitable, on average.
-*	Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'future', and 'box office flop' are not profitable, on average.
+There are 4 keywords with average normalized profit greater than the profit baseline, and 19 with average normalized ROI greater than the ROI baseline.  
+*	Movies with the plot keywords 'wedding', 'island', 'female nudity', and 'hospital' are the most profitable, on average.
+*	Movies with the plot keywords 'high school', 'school', 'secret', 'serial killer', and 'friendship' have the highest average ROI.
+*	Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'rescue','future', and 'box office flop' are not profitable, on average.
+*	Movies with the plot keywords 'scientist', 'box office flop' have negative ROI, on average.
+
+There are some keywords with a negative average profit, but positive average ROI. This indicates that there is likely great variation in the outcomes for each movie associated with a given plot keyword. Additional analysis may provide insights into what features lead to success for a given keyword. For example - 25 out of the 32 movies that are tagged with the keyword "future" lost money, and therefore have a negative ROI. However, the Shane Carruth film 'Primer' gained a cult following, and has an ROI of almost 60 - which skews the average ROI value upward.
 
 **Recommendation**
-The plot keywords with the highest average gross and profit are likely to be associated with financially successful films. Future films should consider these plot themes.
+The plot keywords with the highest average roi and profit are likely to be associated with financially successful films. However, there is likely to be significant variation within each keyword, so the top-line results should be taken with a grain of salt. Additional analysis is needed to acquire a fuller understanding of which keywords are likely to produce consistent results.
 
 ## Conclusion
 The analysis identified groups of lead actors, supporting actors, and directors whose movies are financially successful, on average. I also recommended that the studio focus on two genre groupings - blockbusters (high margin, low volume films), and crowd-pleasers (low margin, high-volume films – and deemphasize less profitable genres. Finally, I identified keywords that have high average profit and ROI – as well as keywords with weak results. These keywords provide direction for which plot themes the studio should embrace and avoid in the future.
@@ -312,9 +314,8 @@ Recommendations:
   *	Crowd-pleasers
     * low margin, high volume	 
     *	genres: Romance, Comedy, Animation, and Family movies
-
 * Plot keywords
-  * I identified the plot keywords with the highest average gross and profit, as well as the keywords that are unprofitable, on average. The studio should aim to develop films that follow one or more of these plot themes. 
+  * I identified the plot keywords with the highest average gross and profit, as well as the keywords that are unprofitable, on average. Further analysis is needed to determine which keywords are associated with consistent strong results.
 
  ## Ideas for Additional Analysis
  
