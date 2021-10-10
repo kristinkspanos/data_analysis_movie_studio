@@ -264,6 +264,7 @@ Comedies have the highest total profits. The Comedy genre is high volumne (15% o
  
 **Recommendation**
 Focus on growth in two categories:
+
 *	Blockbusters (high margin, low volume)
   *	Genres: Action, Adventure, and Fantasy movies
   *	Budget: High-budget
