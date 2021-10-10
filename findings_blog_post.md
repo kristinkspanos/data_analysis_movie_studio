@@ -72,7 +72,7 @@ I used the trimmed values to create a heatmap that shows relationships between t
 ![heatmap](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/heatmap.png)
 
 ## Analysis
-After exploring the data through EDA, I decided to focus on 4 inputs, and three determinants of success:
+After exploring the data through EDA, I decided to focus on 4 inputs, and 2 determinants of success:
 *	Inputs
     *	actors (```actor_1_name```, ```actor_2_name```, ```actor_3_name```) 
     *	directors (```director_name```)
@@ -81,7 +81,6 @@ After exploring the data through EDA, I decided to focus on 4 inputs, and three 
 *	Determinants of success
     *	profit (```profit_millions```)
     *	roi (```roi```)
-    *	gross revenue (```gross```)
 
 Profit is best for analyzing films with the largest overall profit, but when taken on its own, it may mask the success of films that require fewer resources, but achieve strong financial results in relation to those resources. ROI captures profit in relation to budget, and is therefore a good metric for capturing films that use their resources efficiently. 
 
