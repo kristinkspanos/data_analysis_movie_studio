@@ -9,6 +9,8 @@ I tried to answer the following questions:
 * Which genres have the strongest financial outcomes - including the highest average profit and gross revenue, and the highest total profit and revenue? Which genres should the studio focus on in the future, and which genres should the studio de-emphasize?
 * Which plot themes are associated with financial success? Which themes tend to be associated with unsuccessful movies? 
 
+For a full explanation of my analysis, please see [Movie Studio Analysis Findings](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/findings_blog_post.md)
+
 ## Recommendations
 I analyzed the relationships between financial outcomes and several factors that the studio may consider when planning their films: lead actors, supporting actors, directors, genres, and plot themes.
 
@@ -17,7 +19,7 @@ I analyzed the relationships between financial outcomes and several factors that
   * Top lead actors by average profit include: Robert Pattinson, Bryce Dallas Howard, Steve Carell, Jennifer Lawrence, Bradley Cooper
   * Top supporting actors by average profit include: Billy Boyd, Josh Hutcherson, Joel David Moore, Rupert Grint, and John Ratzenberger
   * Top lead actors by ROI include: Mark Margolis, Lin Shaye, Noel Gugliemi, Robert Duvall, and Kevin Zegers
-  * Top supporting actors by ROI include:
+  * Top supporting actors by ROI include: Jon Gries, Barbara Hershey, Diedrich Bader, Shawnee Smith, and Ethan Suplee
 * I also discovered that most of the top actors by profit and ROI are inexperienced (defined as appearing in fewer than 4 movies). The studio should collect and analyze data to try and identify the determinants of success for inexperienced actors. Potential data points include: 
   * Experience acting in non-movie projects (such as TV shows, theatre productions, or comedy shows)
   * Financial and popular success of non-movie projects
@@ -41,16 +43,16 @@ I analyzed the relationships between financial outcomes and several factors that
  * De-emphasize	less profitable genres, including action, crime, thriller, and drama
 
 ### Plot Keywords
-* The studio should aim to develop films that follow one or more of the plot themes that tend to be associated with high-gross and profitable films.
-   * Movies with the plot keywords 'sequel', 'battle', 'spy', 'alien', and 'island' are the highest grossing, on average.
+* The studio should aim to develop films that follow one or more of the plot themes that tend to be associated with profitable films, and avoid plot keywords that tend to be associated with unprofitable films. There appears to be great variation in the results per keyword, so further analysis is needed to determine which keywords are associated with consistent, positive finacial outcomes.
    * Movies with the plot keywords 'wedding', 'island', 'high school', 'female nudity', and 'hospital' are the most profitable, on average.
-* The studio should avoid producing films with plot themes that tend not to be profitable. 
-   * Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'future', and 'box office flop' are not profitable, on average. 
+   * Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'future', and 'box office flop' are not profitable, on average.
 
 ## Built With
 * Python 3
 * Jupyter Notebook
+* Functools
 * Matplotlib
+* Numpy
 * Scipy
 
 ## Data Sources
