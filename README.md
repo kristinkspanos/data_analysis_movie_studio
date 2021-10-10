@@ -9,7 +9,7 @@ I tried to answer the following questions:
 * Which genres have the strongest financial outcomes - including the highest average profit and gross revenue, and the highest total profit and revenue? Which genres should the studio focus on in the future, and which genres should the studio de-emphasize?
 * Which plot themes are associated with financial success? Which themes tend to be associated with unsuccessful movies? 
 
-For a full explanation of my analysis, please see [Movie Studio Analysis Findings](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/findings_blog_post.md)
+For a full explanation of my analysis, see [Movie Studio Analysis Findings](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/findings_blog_post.md).
 
 ## Recommendations
 I analyzed the relationships between financial outcomes and several factors that the studio may consider when planning their films: lead actors, supporting actors, directors, genres, and plot themes.
