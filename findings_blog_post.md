@@ -242,14 +242,6 @@ How do financial outcomes differ by genre? Which genres are most successful?
  
 Movies can be classified under more than one genre. For this analysis, a movie’s outcomes are included in the aggregate outcome for each genre it is classified as. For example - a movie whose genres are "romance" and "comedy" will be included in the analyses for both genres.
 
-**Average Gross by Genre**
-![avg_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/barplot_avg_gross_genre_.png)
-
-Adventure, Animation, Family, Fantasy and Sci-fi movies are the highest grossing, on average.
-
-**Total Gross by Genre**
-![total_gross_genre](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/barplot_total_gross_genre.png)
-
 The Adventure, Family, Fantasy, and Sci-fi genres have high total gross, in addition to their high average gross. This indicates high volume - each of these genres represent 4.3% - 6.3% of all movies. Despite high average gross, Animation had low total gross due to the fact that only 2% of movies are Animations.
 
 **Average Profit by Genre**
@@ -263,16 +255,9 @@ Animation and Family have the highest average profits. Adventure, Comedy, Fantas
 Comedies have the highest total profits. The Comedy genre is high volumne (15% of all movies) and Comedies have have above-average profitability.
  
 **Recommendation**
-Focus on growth in two categories:
-
-*	Blockbusters (high margin, low volume)
-  *	Genres: Action, Adventure, and Fantasy movies
-  *	Budget: High-budget
-  *	Frequency: low frequency
-*	Crowd-pleasers (low margin, high volume)
-  *	Genres: Romance, Comedy, Animation, Family
-  *	Budget: low-budget
-  *	Frequency: high frequency
+Focus on growth in three categories:
+*	Blockbusters (high margin, low volume) - Blockbusters are high-budget, high-margin films. The resources required to produce these films means that they are released infrequently. Blockbuster genres include Adventure (6.3% of all films), Fantasy (4.3% of all films), Sci-fi movies (4.4% of all films), Animation (2% of all films), and Family movies (4.3% of all films).
+*	Crowd-pleasers (low margin, high volume) - Crowd-pleasers have lower budgets and lower margins, and are released more frequently. Crowd-pleaser genres include Romance (8.2% of all films) and Comedy (15% of all films).
 
 De-emphasize less profitable genres - including Action, Crime, Thriller, and Drama.
 
@@ -311,10 +296,10 @@ Recommendations:
 * Genres - focus on growth in two categories:
   *	Blockbusters
     *	high margin, low volume
-    *	genres: Action, Adventure, and Fantasy movies
+    *	genres: Action, Adventure, Fantasy, Animation, and Family movies
   *	Crowd-pleasers
     * low margin, high volume	 
-    *	genres: Romance, Comedy, Animation, and Family movies
+    *	genres: Romance and Comedy movies
 * Plot keywords
   * I identified the plot keywords with the highest average gross and profit, as well as the keywords that are unprofitable, on average. Further analysis is needed to determine which keywords are associated with consistent strong results.
 
