@@ -107,7 +107,7 @@ The first metric analyzed is profit. I normalized the profit metric by dividing 
 
 There are 48 lead actors - including Robert Pattinson, Bryce Dallas Howard, and Steve Carell - and 128 supporting actors - including Billy Boyd, Josh Hutcherson, and Joel David Moore - with an average normalized profit greater than two - indicating that the movies these actors appear in have an average profit that is at least twice the overall average (a value of one is an average value).
 
-[tableau_viz](https://public.tableau.com/javascripts/api/viz_v1.js)
+![tableau_viz](https://public.tableau.com/javascripts/api/viz_v1.js)
 
 ***Top Experienced Lead Actors by Normalized Avg. Profit***
 | ```actor_1_name```  | ```avg_profit_millions``` | ```normalized_profit``` |
