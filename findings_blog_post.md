@@ -152,7 +152,7 @@ There are 54 lead actors - including Mark Margolis, Lin Shaye, and Noel Gugliemi
 **Recommendation**
 The lead and supporting actors with average normalized profit greater than 2.09 and/or average ROI greater than 94% have a track record of appearing in movies with strong financial results, and should be hired on future movies.
 
-*Further analysis - what is the overlap between these two lists?*
+There is overlap between lists of lead actors with average normalized profit above the profit baseline, and lead actors with average roi above the roi baseline - between the two lists, there are 72 lead actors. Similarly, there is overlap between the two lists of supporting actors. Between those two lists, there are 175 supporting actors.
 
 Finally, I looked at summary outcomes by actor, in order to explore if filtering the results of the normalized profit and ROI analysis by actors who have appeared in at least 4 movies left out any highly profitable actors. This analysis revealed that 86% of the lead actors with the highest average profit and 95% of the actors with the highest average ROI have indeed appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
 
@@ -211,7 +211,7 @@ There are 77 directors with average normalized ROI average greater than the ROI 
 **Recommendation**
 The directors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of directing in movies with strong financial results, and should be hired on future movies. 
 
-*Further analysis - what is the overlap between these two lists?*
+There is overlap between lists of directors with average normalized profit above the profit baseline, and directors with average roi above the roi baseline. Between the two lists, there are 105 directors. 
 
 I also looked at the summary outcomes for all directors for these metrics. This analysis revealed that 75% of the directors with the highest average profit and 21% of the directors with the highest average ROI have appeared in less than 4 movies, and therefore won’t appear in the previous analysis.
 
