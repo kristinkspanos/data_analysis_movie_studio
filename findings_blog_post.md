@@ -2,6 +2,8 @@
 ## Scenario
 After a few tough years financially and a series of unsuccessful films, a movie studio is looking to update their strategy. I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film.
 
+Check out the full analysis on [GitHub](https://github.com/kristinkspanos/data_analysis_movie_studio).
+
 ## Investigate the data through exploratory data analysis 
 Before diving into the analysis, I performed exploratory data analysis (EDA) to familiarize myself with the variables included in the dataset. 
 
