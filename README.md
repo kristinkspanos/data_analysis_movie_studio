@@ -33,7 +33,9 @@ I analyzed the relationships between financial outcomes and several factors that
   *  Experience working as a producer, writer, camera operator, or in another production-oriented role on a movie or non-movie projects
 
 ### Genres
-* Focus on growth in two categories - blockbusters and crowd-pleasers:
+My analysis found that the studio should focus on growth in two categories, Blockbusters and Crowd-pleasers, while de-emphasizing less profitable genres.
+
+*  Focus on growth in two categories - blockbusters and crowd-pleasers:
   *	Blockbusters
     *	high margin, low volume
     *	genres: adventure, sci-fi, and fantasy movies
