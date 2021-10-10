@@ -15,7 +15,7 @@ For a full explanation of my analysis, see [Movie Studio Analysis Findings](http
 I analyzed the relationships between financial outcomes and several factors that the studio may consider when planning their films: lead actors, supporting actors, directors, genres, and plot themes.
 
 ### Lead and Supporting Actors
-* The analysis identified experienced (appeared in 4 or more movies) lead and supporting actors with a history of strong financial outcomes. These actors should be considered for future projects.
+* The analysis identified experienced (defined as appearing in 4 or more movies) lead and supporting actors with a history of strong financial outcomes. These actors should be considered for future projects.
   * Top lead actors by average profit include: Robert Pattinson, Bryce Dallas Howard, Steve Carell, Jennifer Lawrence, Bradley Cooper
   * Top supporting actors by average profit include: Billy Boyd, Josh Hutcherson, Joel David Moore, Rupert Grint, and John Ratzenberger
   * Top lead actors by ROI include: Mark Margolis, Lin Shaye, Noel Gugliemi, Robert Duvall, and Kevin Zegers
