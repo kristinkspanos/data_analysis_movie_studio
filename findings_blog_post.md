@@ -64,22 +64,7 @@ I used ```.value_counts()``` to look at the distribution of each categorical var
 
 ***Boxplot - ROI***
 
-![boxplot_roi_w_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_roi_outliers.png)
-
-
-***Boxplot - ROI (trimmed outliers)***
-
-![boxplot_roi_w_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_roi.png)
-
-
-***Boxplot - Gross, Budget and Profit***
-
-![boxplot_roi_no_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_dollar_metrics_outliers.png)
-
-
-***Boxplot - Gross, Budget and Profit (trimmed outliers)***
-
-![boxplot_dollar_metrics_no_outliers](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_dollar_metrics.png)
+![boxplot_roi](https://github.com/kristinkspanos/data_analysis_movie_studio/blob/main/visualizations/boxplot_roi_compare.png)
 
 I used the trimmed values to create a heatmap that shows relationships between the variables without the influence of outliers.
 
