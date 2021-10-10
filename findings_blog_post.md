@@ -1,19 +1,3 @@
-<script src="https://www.example.com/javascripts/api/tableau-2.js"></script>
-<div id="tableauViz"></div>
-
-function initializeViz() {
-var placeholderDiv = document.getElementById("tableauViz");
-var url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita";
-var options = {
- width: '600px',
- height: '600px',
- hideTabs: true,
- hideToolbar: true,
- };
-viz = new tableau.Viz(placeholderDiv, url, options);
-}
-
-
 # Movie Studio Analysis Findings
 ## Scenario
 After a few tough years financially and a series of unsuccessful films, a movie studio is looking to update their strategy. I analyzed a dataset of over 5000 films with the goal of developing insights on what elements contribute to a successful film.
