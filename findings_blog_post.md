@@ -256,7 +256,7 @@ Animation and Family have the highest average profits. Adventure, Comedy, Fantas
 Comedies have the highest total profits. The Comedy genre is high volumne (15% of all movies) and Comedies have have above-average profitability.
  
 **Recommendation**
-Focus on growth in three categories:
+Focus on growth in two categories:
 *	Blockbusters (high margin, low volume) - Blockbusters are high-budget, high-margin films. The resources required to produce these films means that they are released infrequently. Blockbuster genres include Adventure (6.3% of all films), Fantasy (4.3% of all films), Sci-fi movies (4.4% of all films), Animation (2% of all films), and Family movies (4.3% of all films).
 *	Crowd-pleasers (low margin, high volume) - Crowd-pleasers have lower budgets and lower margins, and are released more frequently. Crowd-pleaser genres include Romance (8.2% of all films) and Comedy (15% of all films).
 
