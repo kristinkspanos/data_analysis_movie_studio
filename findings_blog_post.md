@@ -209,7 +209,7 @@ There are 77 directors with average normalized ROI average greater than the ROI 
 | Darren Lynn Bousman | 8 |
  
 **Recommendation**
-The directors with average normalized profit greater than 2 and/or average normalized ROI greater than 1.5 have a track record of directing in movies with strong financial results, and should be hired on future movies. 
+The directors with average normalized profit greater than 2.09 and/or average ROI greater than 94% have a track record of directing in movies with strong financial results, and should be hired on future movies. 
 
 There is overlap between lists of directors with average normalized profit above the profit baseline, and directors with average roi above the roi baseline. Between the two lists, there are 105 directors. 
 
