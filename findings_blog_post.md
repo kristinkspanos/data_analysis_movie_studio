@@ -269,7 +269,7 @@ More than one plot keyword may be associated with a movie. For this analysis, a 
  
 The list of movies is filtered to only show keywords (‘plot_keywords’) associated with at least 30 movies. There are 6612 keywords todtal, but only 51 are associated with at least 30 movies.
 
-There are 4 keywords with average normalized profit greater than the profit baseline, and 19 with average normalized ROI greater than the ROI baseline.  
+There are 4 keywords with average normalized profit greater than the profit baseline, and 19 with average ROI greater than the ROI baseline.  
 *	Movies with the plot keywords 'wedding', 'island', 'female nudity', and 'hospital' are the most profitable, on average.
 *	Movies with the plot keywords 'high school', 'school', 'secret', 'serial killer', and 'friendship' have the highest average ROI.
 *	Movies with the plot keywords 'small town', 'writer', 'escape', 'scientist', 'boy', 'rescue','future', and 'box office flop' are not profitable, on average.
